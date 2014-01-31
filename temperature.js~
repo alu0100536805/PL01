@@ -13,11 +13,11 @@ function calculate() {
     num = parseFloat(num);
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
-      result = result + "f"
+      result = result + "F"
     }
     else {
       result = (num - 32)*5/9;
-      result = result + "c"
+      result = result + "C"
     }
     converted.innerHTML = result;
   }

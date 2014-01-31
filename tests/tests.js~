@@ -6,7 +6,7 @@ suite('temperature', function() {
         calculate();
         assert.deepEqual(converted.innerHTML, "0C");
     });
-    test('45C = 113', function() {
+    test('45C = 113F', function() {
         original.value = "45C";
         calculate();
         assert.deepEqual(converted.innerHTML, "113F");
